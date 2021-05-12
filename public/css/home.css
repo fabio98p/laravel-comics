@@ -14,9 +14,9 @@
   text-align: center;
 }
 
-.contained {
+.w_80 {
+  width: 80%;
   margin: 0 auto;
-  width: 1220px;
 }
 
 * {
@@ -26,12 +26,68 @@
   box-sizing: border-box;
 }
 
-header .navbar {
-  background-color: red;
+header nav .contained {
+  background-color: #0282F9;
+}
+
+header nav .contained .blueLine {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header nav .contained .blueLine span {
+  margin-left: 50px;
+}
+
+header nav .navbar {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #464F57;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .navbar a img {
+  height: 50px;
+  width: 50px;
+}
+
+header nav .navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav .navbar ul li {
+  height: 70px;
+  margin: 0 20px;
+  line-height: 70px;
+}
+
+header nav .navbar ul li.active {
+  border-bottom: 3px solid #0282F9;
+  color: #0282F9;
+}
+
+header nav .search {
+  border-bottom: 3px solid #0282F9;
+}
+
+header nav .search input {
+  width: 80px;
+}
+
+header nav .search button {
+  background-color: #fff;
 }
 
 header .jumbo {
-  background-color: purple;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-position-y: top;
+  background-position-x: center;
+  background-size: 100%;
+  height: 400px;
 }
 
 main {
@@ -43,7 +99,39 @@ footer .follow {
 }
 
 footer .info {
-  background-color: blue;
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-position-y: top;
+  background-position-x: center;
+  background-size: 100%;
+}
+
+footer .info .link {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+footer .info .link ul {
+  width: 70px;
+}
+
+footer .info .link ul li {
+  color: lightgrey;
+}
+
+footer .info .link ul li h3 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+footer .info .terms {
+  color: lightgray;
+}
+
+footer .info .terms a {
+  text-decoration: none;
+  color: cornflowerblue;
 }
 
 footer .merch {

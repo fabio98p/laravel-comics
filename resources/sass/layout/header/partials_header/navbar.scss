@@ -1,6 +1,54 @@
 header{
-	.navbar{
-		background-color: red;
+	nav{
+		.contained{
+			background-color: #0282F9;
+			.blueLine{
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+				
+				span{
+					margin-left: 50px;
+				}
+			}
+		}
+		.navbar{
+			text-transform: uppercase;
+			font-weight: bold;
+			color: #464F57;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			a{
+				img{
+					height: 50px;
+					width: 50px;
+				}
+			}
+			ul{
+				display: flex;
+				align-items: center;
+				li{
+					height: 70px;
+					margin: 0 20px;
+					line-height: 70px;
+					
+				}
+				li.active{
+					border-bottom: 3px solid #0282F9;
+					color: #0282F9;
+				}
+			}
+		}
+		.search{
+			border-bottom: 3px solid #0282F9;
+			input{
+				width: 80px;
+			}
+			button{
+				background-color: #fff;
 
+			}
+		}
 	}
 }

@@ -1,6 +1,32 @@
 footer{
 	.info{
-		background-color: blue;
-
+		background-image: url(../../../../../public/img/footer-bg.jpg);
+		background-position-y: top;
+		background-position-x: center;
+		background-size: 100%;
+		
+		.link{
+			height: 300px;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			ul{
+				width: 70px;
+				li{
+					color: lightgrey;
+					h3{
+						color: #fff;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+		.terms{
+			color: lightgray;
+			a{
+				text-decoration: none;
+				color: cornflowerblue;
+			}
+		}
 	}
 }
