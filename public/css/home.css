@@ -1,0 +1,52 @@
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.no_style {
+  list-style-type: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.contained {
+  margin: 0 auto;
+  width: 1220px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header .navbar {
+  background-color: red;
+}
+
+header .jumbo {
+  background-color: purple;
+}
+
+main {
+  background-color: sandybrown;
+}
+
+footer .follow {
+  background-color: antiquewhite;
+}
+
+footer .info {
+  background-color: blue;
+}
+
+footer .merch {
+  background-color: greenyellow;
+}
+

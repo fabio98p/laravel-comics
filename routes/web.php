@@ -20,3 +20,8 @@ Route::get('/', function () {
 Route::get('/comic', function () {
     return view('comic');
 });
+
+Route::get('/dati', function () {
+    $database = config('dati');
+    return view('dati')->with('dati', $database);
+});

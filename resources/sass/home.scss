@@ -1,0 +1,14 @@
+//import cose predefinite
+@import "./_partials_of_all/variables";
+@import "./_partials_of_all/mixin";
+@import "./_partials_of_all/common";
+@import "./_partials_of_all/normalize";
+
+//import header
+@import "./layout/header/header.scss";
+
+//import main
+@import "./_partials_of_pages/_partials_main_home/list_comics.scss";
+
+//import footer
+@import "./layout/footer/footer.scss";

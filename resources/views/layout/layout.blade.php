@@ -5,19 +5,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Laravel</title>
+		<link rel="stylesheet" href="./css/home.css">
 
 		<!-- Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
 	</head>
 	<body> 
-		@include('layout.footer.footer')
+		@include('layout.header.header')
 	
 		<main>
 			@yield('main')
 		</main>
 
 	
-		@include('layout.header.header')
+		@include('layout.footer.footer')
 	</body>
 </html>
