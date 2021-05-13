@@ -17,11 +17,8 @@ Route::get('/', function () {
     return view('home')->with('dati', config('dati'));
 });
 
-Route::get('/comic', function () {
-    return view('comic');
-});
+Route::get('/comic/{id}', function ($id) {
+    $comic = config('comic');
+    return view('comic')->with('comic', $comic[$id]);
+})->name('comic');
 
-// Route::get('/dati', function () {
-//     $database = config('dati');
-//     return view('dati')->with('dati', $database);
-// });

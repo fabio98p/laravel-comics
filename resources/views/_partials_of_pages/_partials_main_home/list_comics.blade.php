@@ -3,8 +3,8 @@
 		current series
 	</div>
 	<div class="comics">
-	@foreach ($dati as $comic)
-		<div class="comic">
+	@foreach ($dati as $index => $comic)
+		<a href="{{route('comic', ['id' => $index])}}" class="comic">
 			<div class="thumbnail">
 	
 				<div class="img">
@@ -12,7 +12,7 @@
 				</div>
 				<h4>{{$comic['series']}}</h4>
 			</div>
-		</div>
+		</a>
 	@endforeach
 	</div>
 
