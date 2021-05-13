@@ -14,14 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('home')->with('dati', config('dati'));
 });
 
 Route::get('/comic', function () {
     return view('comic');
 });
 
-Route::get('/dati', function () {
-    $database = config('dati');
-    return view('dati')->with('dati', $database);
-});
+// Route::get('/dati', function () {
+//     $database = config('dati');
+//     return view('dati')->with('dati', $database);
+// });

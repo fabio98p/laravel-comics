@@ -1,22 +1,26 @@
 footer{
 	.info{
+		display: flex;
+		height: 400px;
 		background-image: url(../../../../../public/img/footer-bg.jpg);
 		background-position-y: top;
 		background-position-x: center;
 		background-size: 100%;
-		
 		.link{
-			height: 300px;
-			display: flex;
-			flex-direction: column;
-			flex-wrap: wrap;
-			ul{
-				width: 70px;
-				li{
-					color: lightgrey;
-					h3{
-						color: #fff;
-						text-transform: uppercase;
+			.contained{
+				height: 90%;
+				display: flex;
+				flex-direction: column;
+				flex-wrap: wrap;
+				
+				ul{
+					width: 70px;
+					li{
+						color: lightgrey;
+						h3{
+							color: #fff;
+							text-transform: uppercase;
+						}
 					}
 				}
 			}
@@ -27,6 +31,10 @@ footer{
 				text-decoration: none;
 				color: cornflowerblue;
 			}
+		}
+		img{
+			width: 50%;
+			overflow: hidden;
 		}
 	}
 }
