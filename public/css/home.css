@@ -124,39 +124,55 @@ footer .follow {
 }
 
 footer .info {
-  display: flex;
-  height: 400px;
   background-image: url(../img/footer-bg.jpg);
+}
+footer .info .container {
+  display: flex;
+  height: 450px;
   background-position-y: top;
   background-position-x: center;
   background-size: 100%;
 }
-footer .info .link .contained {
+footer .info .container .link {
+  margin: 40px 0;
+}
+footer .info .container .link .contained {
   height: 90%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
-footer .info .link .contained ul {
-  width: 70px;
+footer .info .container .link .contained ul {
+  margin-bottom: 20px;
 }
-footer .info .link .contained ul li {
-  color: lightgrey;
+footer .info .container .link .contained ul li {
+  color: #919090;
+  margin-bottom: 5px;
 }
-footer .info .link .contained ul li h3 {
+footer .info .container .link .contained ul li h3 {
   color: #fff;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
-footer .info .terms {
-  color: lightgray;
+footer .info .container .terms {
+  color: #919090;
 }
-footer .info .terms a {
+footer .info .container .terms a {
   text-decoration: none;
   color: cornflowerblue;
 }
-footer .info img {
+footer .info .container .img {
   width: 50%;
+  height: 100%;
+  position: relative;
   overflow: hidden;
+}
+footer .info .container .img img {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 footer .merch {
