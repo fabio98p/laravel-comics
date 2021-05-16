@@ -8,9 +8,9 @@
 @import "./layout/header/header.scss";
 
 //import comic
+@import "./_partials_of_pages/_partials_main_comic/picture.scss";
 @import "./_partials_of_pages/_partials_main_comic/description.scss";
 @import "./_partials_of_pages/_partials_main_comic/info.scss";
-@import "./_partials_of_pages/_partials_main_comic/picture.scss";
 
 //import footer
 @import "./layout/footer/footer.scss";

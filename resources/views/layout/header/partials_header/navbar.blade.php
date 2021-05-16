@@ -6,7 +6,7 @@
 		</div>
 	</div>
 	<div class="navbar w_80">
-		<a href="/"><img class="logo" src="./img/dc-logo.png" alt=""></a>
+		<a href="/"><img class="logo" src="../img/dc-logo.png" alt=""></a>
 
 		<ul class="no_style">
 			<li>characters</li>

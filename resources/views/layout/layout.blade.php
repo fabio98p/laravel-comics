@@ -8,7 +8,7 @@
 		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 		<!-- non so pertche funziona, dovrebbe essere il contrario, comunque trovero una soluzione migliore -->
-		@if(route('home') == 'http://localhost:8000/comic/1')
+		@if("home" == Route::currentRouteName())
 		<link rel="stylesheet" href="../css/home.css">
 		@else
 		<link rel="stylesheet" href="../css/comic.css">

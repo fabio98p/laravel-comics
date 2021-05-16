@@ -50,5 +50,5 @@
 		</div>
 		<div class="terms">All Site Content TM and @ 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All right reserved. <a href="#">cockies Setting</a></div>
 	</div>
-	<img src="./img/dc-logo-bg.png" alt="">
+	<img src="../img/dc-logo-bg.png" alt="">
 </div>
